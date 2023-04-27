@@ -17,7 +17,7 @@ const Timer = () => {
   return (
     <div className='timer'>
         <h1>Timer App using useRef</h1>
-        <p>{time}</p>
+        <h1>{time}</h1>
         <span>
             <button onClick={startTimer}>start</button>
             <button onClick={StopTimer}>stop</button>
